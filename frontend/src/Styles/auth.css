@@ -1,0 +1,66 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e0eaff);
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#loginButton,
+#registerButton {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.authbutton{
+    margin-left: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#loginButton {
+  background-color: #4a90e2;
+  color: white;
+}
+
+#loginButton:hover {
+  background-color: #357abd;
+}
+
+#registerButton {
+  background-color: #50c878;
+  color: white;
+}
+
+#registerButton:hover {
+  background-color: #3ca463;
+}
