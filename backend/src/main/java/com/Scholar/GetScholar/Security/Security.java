@@ -39,11 +39,11 @@ public class Security {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/auth/login", "/auth/register").permitAll()
                 .requestMatchers("/auth/**").permitAll()  
-                .requestMatchers("/api/**").authenticated() // Changed from "/api" to "/api/**"
+                .requestMatchers("/api/**").authenticated() 
                 .anyRequest().authenticated()
             )
             .authenticationProvider(daoAuthProvider())
-            .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class) // Add JWT filter
+            .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class) 
             .headers(headers -> headers.frameOptions().disable());  
         
         return http.build();

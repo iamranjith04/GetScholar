@@ -16,7 +16,7 @@ import java.util.function.Function;
 public class JwtUtil {
 
     private final SecretKey SECRET_KEY = Keys.secretKeyFor(SignatureAlgorithm.HS256);
-    private final int JWT_EXPIRATION = 86400000; 
+    private final int JWT_EXPIRATION =  24 * 60 * 60 * 1000; 
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
