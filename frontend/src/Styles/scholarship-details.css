@@ -1,0 +1,260 @@
+.scholarship-details-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.details-header {
+    margin-bottom: 2rem;
+}
+
+.details-header h1 {
+    margin: 0.5rem 0;
+    color: #1f2937;
+}
+
+.back-btn {
+    color: #4a6baf;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
+.scholarship-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-details {
+    flex: 2;
+}
+
+.application-section {
+    flex: 1;
+}
+
+.info-section {
+    background: #f9fafb;
+    padding: 1.25rem;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 1.5rem;
+}
+
+.info-section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #374151;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.info-item {
+    margin-bottom: 0.5rem;
+}
+
+.info-item strong {
+    display: block;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+.info-item span {
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.amount {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.deadline-passed {
+    color: #ef4444;
+}
+
+.deadline-active {
+    color: #10b981;
+}
+
+.description-section,
+.eligibility-section,
+.documents-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.description-section h2,
+.eligibility-section h2,
+.documents-section h2 {
+    color: #374151;
+    margin-top: 0;
+}
+
+.criteria-details {
+    margin-top: 1rem;
+}
+
+.criteria-item {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.apply-section {
+    background: #f9fafb;
+    padding: 1.25rem;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+}
+
+.apply-prompt {
+    text-align: center;
+    padding: 1rem;
+}
+
+.apply-prompt h3 {
+    margin-top: 0;
+    color: #374151;
+}
+
+.apply-prompt p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+
+.apply-btn {
+    padding: 0.75rem 1.5rem;
+    background: #4a6baf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.apply-btn:hover {
+    background: #3a5a9f;
+}
+
+.application-form h3 {
+    margin-top: 0;
+    color: #374151;
+}
+
+.error-message {
+    color: #d32f2f;
+    background: #fde8e8;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-section {
+    margin-bottom: 1.5rem;
+}
+
+.form-section h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #4b5563;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 0.75rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #4b5563;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.form-group textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cancel-btn {
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    color: #4b5563;
+}
+
+.cancel-btn:hover {
+    background: #e5e7eb;
+}
+
+.submit-btn {
+    background: #4a6baf;
+    border: 1px solid #3a5a9f;
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #3a5a9f;
+}
+
+.submit-btn:disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+}
+
+.deadline-notice,
+.inactive-notice {
+    text-align: center;
+    padding: 1.5rem;
+    background: #fef2f2;
+    border-radius: 6px;
+    border: 1px solid #fee2e2;
+    color: #b91c1c;
+}
+
+.deadline-notice h3,
+.inactive-notice h3 {
+    margin-top: 0;
+}

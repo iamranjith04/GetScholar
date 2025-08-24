@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 function Login(){
     const [userName,setUserName]=useState("");
     const [password,setPassword]=useState("");
-    const [token,setToken]=useState("");
     const navigate = useNavigate();
     const handleSubmit=async(e)=>{
         e.preventDefault();
@@ -24,7 +23,7 @@ function Login(){
                 throw new Error("Invalid credentials");
             }
             const data = await response.json();
-            setToken(data.token);
+            sessionStorage.setItem("token", data.token);
             navigate("/home");
         }
         catch (error) {

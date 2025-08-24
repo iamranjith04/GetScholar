@@ -1,0 +1,100 @@
+.home-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.logout-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.logout-btn {
+    padding: 0.5rem 1rem;
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    background: #e5e7eb;
+}
+
+.user-type-selection {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.user-type-selection h2 {
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.user-type-selection p {
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.role-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.role-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.role-card h3 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+.role-card p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+
+.role-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.role-btn.donor-btn {
+    background: #4a6baf;
+    color: white;
+}
+
+.role-btn.donor-btn:hover {
+    background: #3a5a9f;
+}
+
+.role-btn.student-btn {
+    background: #10b981;
+    color: white;
+}
+
+.role-btn.student-btn:hover {
+    background: #0d9f6e;
+}
